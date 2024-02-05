@@ -8,7 +8,7 @@ import Image from "next/image";
 
 interface ServiceItemProps {
   service: Service;
-  isAuthenticated?: boolean;
+  isAuthenticated: boolean;
 }
 
 const ServiceItem = ({ service, isAuthenticated }: ServiceItemProps) => {
